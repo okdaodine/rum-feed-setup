@@ -26,8 +26,8 @@ staging=0 # Set to 1 if you're testing your setup to avoid hitting request limit
 for domain in ${domains[@]}; do
   echo $domain
   if [ -d "$data_path/conf/live/$domain" ]; then
-    docker pull postgres
-    docker pull btclinkgrt/quorum-feed
+    docker pull postgres:12.0-alpine
+    docker pull btclinkgrt/rum-feed
     docker-compose up -d
     exit
   fi

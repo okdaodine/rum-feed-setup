@@ -1,2 +1,2 @@
-docker pull btclinkgrt/quorum-feed
+docker pull btclinkgrt/rum-feed
 docker-compose down --remove-orphans && docker-compose up -d
