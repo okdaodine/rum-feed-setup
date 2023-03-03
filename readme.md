@@ -46,8 +46,8 @@ docker-compose version 1.27.4, build 40524192
 ## 3. Get code
 
 ```
-git clone https://github.com/rumsystem/light-timeline-setup.git
-cd light-timeline-setup
+git clone https://github.com/rumsystem/rum-feed-setup.git
+cd rum-feed-setup
 ```
 
 ## 4. Deploy
@@ -66,13 +66,13 @@ Congratulations, the deployment is complete and you can access it by `feed.com`.
 ```
 ./down.sh
 
-Stopping light-timeline-setup_feed_1     ... done
-Stopping light-timeline-setup_nginx_1    ... done
-Stopping light-timeline-setup_postgres_1 ... done
-Stopping light-timeline-setup_certbot_1  ... done
-Removing light-timeline-setup_feed_1     ... done
-Removing light-timeline-setup_nginx_1    ... done
-Removing light-timeline-setup_postgres_1 ... done
-Removing light-timeline-setup_certbot_1  ... done
-Removing network light-timeline-setup_default
+Stopping rum-feed-setup_feed_1     ... done
+Stopping rum-feed-setup_nginx_1    ... done
+Stopping rum-feed-setup_postgres_1 ... done
+Stopping rum-feed-setup_certbot_1  ... done
+Removing rum-feed-setup_feed_1     ... done
+Removing rum-feed-setup_nginx_1    ... done
+Removing rum-feed-setup_postgres_1 ... done
+Removing rum-feed-setup_certbot_1  ... done
+Removing network rum-feed-setup_default
 ```
