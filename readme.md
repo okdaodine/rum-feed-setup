@@ -46,7 +46,7 @@ docker-compose version 1.27.4, build 40524192
 ## 3. Get code
 
 ```
-git clone https://github.com/rumsystem/rum-feed-setup.git
+git clone https://github.com/okdaodine/rum-feed-setup.git
 cd rum-feed-setup
 ```
 
