@@ -48,6 +48,7 @@ docker-compose version 1.27.4, build 40524192
 ```
 git clone https://github.com/okdaodine/rum-feed-setup.git
 cd rum-feed-setup
+cp config.example.js config.js
 ```
 
 ## 4. Deploy
