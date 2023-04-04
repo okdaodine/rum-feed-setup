@@ -4,7 +4,13 @@ module.exports = {
 
   // logo: '',
 
+  // defaultGroupId: '',
+
+  // repo: 'https://github.com/okdaodine/rum-feed',
+
   // admins: ['user_address'],
+
+  // groupsPageIsOnlyVisibleToAdmin: true,
 
   database: {
     host: "postgres",
