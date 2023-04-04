@@ -2,7 +2,9 @@ module.exports = {
 
   siteName: 'Rum Feed',
 
-  logo: '',
+  // logo: '',
+
+  // admins: ['user_address'],
 
   database: {
     host: "postgres",
