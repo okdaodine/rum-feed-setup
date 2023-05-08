@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: e8b50fddddf04ee439f12851f5275222
 
   feed:
-    image: 'btclinkgrt/rum-feed'
+    image: 'btclinkgrt/rum-feed-club'
     command: bash -c "yarn start-prod"
     restart: 'always'
     volumes:
