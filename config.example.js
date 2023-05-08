@@ -6,7 +6,7 @@ module.exports = {
 
   // defaultGroupId: '',
 
-  // repo: 'https://github.com/okdaodine/rum-feed',
+  repo: 'https://github.com/okdaodine/rum-feed',
 
   // admins: ['user_address'],
 
