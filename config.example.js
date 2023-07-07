@@ -12,6 +12,8 @@ module.exports = {
 
   // groupsPageIsOnlyVisibleToAdmin: true,
 
+  enabledVideo: true,
+
   database: {
     host: "postgres",
     port: '5432',

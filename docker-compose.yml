@@ -17,6 +17,7 @@ services:
     restart: 'always'
     volumes:
       - ./config.js:/server/config.js:ro
+      - ./storage:/server/storage
     logging:
       driver: 'json-file'
       options:
